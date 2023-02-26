@@ -1,19 +1,19 @@
-PulseJS
-=======
+Pulse
+=====
 
 Author: **[Afaan Bilal](https://afaan.dev)**
 
 ## Introduction
-**PulseJS** is a JavaScript library for building reactive stuff.
+**Pulse** is a JavaScript library for building reactive stuff.
 
 ## Installation
 ````
-npm i pulsejs
+npm i @afaanbilal/pulse
 ````
 
 ## Example usage
 ````js
-import { createMonitor, createPulse } from "pulsejs";
+import { createMonitor, createPulse } from "@afaanbilal/pulse";
 
 const [count, setCount] = createPulse(0);
 
@@ -39,5 +39,5 @@ or add the feature and create a pull request. That's it!
 Thanks!
 
 ## License
-**PulseJS** is released under the MIT License.
+**Pulse** is released under the MIT License.
 Check out the full license [here](LICENSE).
