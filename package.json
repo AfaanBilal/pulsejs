@@ -1,0 +1,27 @@
+{
+  "name": "pulsejs",
+  "version": "0.0.1",
+  "description": "pulsejs - experimental reactivity",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfaanBilal/pulsejs.git"
+  },
+  "keywords": [
+    "pulsejs",
+    "reactivity"
+  ],
+  "author": "Afaan Bilal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AfaanBilal/pulsejs/issues"
+  },
+  "homepage": "https://github.com/AfaanBilal/pulsejs#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
