@@ -1,7 +1,7 @@
 {
-  "name": "pulsejs",
+  "name": "pulse-js",
   "version": "0.0.1",
-  "description": "pulsejs - experimental reactivity",
+  "description": "pulse-js - experimental reactivity",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/AfaanBilal/pulsejs.git"
   },
   "keywords": [
-    "pulsejs",
+    "pulse-js",
     "reactivity"
   ],
   "author": "Afaan Bilal",
