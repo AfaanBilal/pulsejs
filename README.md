@@ -13,6 +13,8 @@ Author: **[Afaan Bilal](https://afaan.dev)**
 ## Demo
 A very minimal demo can be found [here](http://afaan.dev/pulse/) with the associated [source code here](https://github.com/AfaanBilal/pulse).
 
+A slightly less minimal demo can be found [here](http://afaan.dev/pulse-demo/) with the associated [source code here](https://github.com/AfaanBilal/pulse-demo).
+
 ## Installation
 ````
 npm i @afaanbilal/pulse
@@ -37,6 +39,26 @@ btnDouble.onclick = () => setCount(count() * 2);
 
 document.body.append(h1, btn, btnDouble);
 
+````
+
+## Creating a new project
+
+1. Create a new Vite project by (choose Vanilla with/without Typescript):
+
+````
+npm create vite@latest
+````
+
+2. Install Pulse
+````
+npm i @afaanbilal/pulse
+````
+
+3. Follow the example usage above.
+
+4. Start
+````
+npm run dev
 ````
 
 ## Testing
