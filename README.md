@@ -37,6 +37,28 @@ document.body.append(h1, btn, btnDouble);
 npm test
 ````
 
+````
+> @afaanbilal/pulse@0.0.3 test
+> jest --coverage
+
+ PASS  test/index.test.ts
+  √ should create a pulse (1 ms)
+  √ should update a pulse
+  √ should create a monitor
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |
+ index.ts |     100 |      100 |     100 |     100 |
+----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        0.56 s, estimated 1 s
+Ran all test suites.
+````
+
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
 or bug. Then fork the repository, create a branch and make any changes to fix the bug
