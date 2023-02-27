@@ -10,6 +10,9 @@ Author: **[Afaan Bilal](https://afaan.dev)**
 ## Introduction
 **Pulse** is a JavaScript library for building reactive stuff.
 
+## Demo
+A very minimal demo can be found [here](http://afaan.dev/pulse/) with the associated [source code here](https://github.com/AfaanBilal/pulse).
+
 ## Installation
 ````
 npm i @afaanbilal/pulse
