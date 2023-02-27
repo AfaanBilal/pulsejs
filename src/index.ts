@@ -10,7 +10,7 @@ let c: Function | null = null;
 /**
  * Create a monitor for pulses.
  *
- * @param f The function to call when any of the pulses change.
+ * @param {() => void} f The function to call when any of the pulses change.
  */
 const createMonitor = (f: () => void) => {
     const runner = () => {
@@ -25,7 +25,8 @@ const createMonitor = (f: () => void) => {
 /**
  * Create a pulse.
  *
- * @param v The initial value.
+ * @param  {T} v The initial value.
+ * @return {[() => T, (T) => void]} Returns a read, write tuple.
  */
 const createPulse = <T>(v: T): [() => T, (nV: T) => void] => {
     const observers = new Set<Function>();
