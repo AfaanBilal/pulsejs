@@ -1,6 +1,9 @@
 Pulse
 =====
 
+![Minified Size](https://img.shields.io/bundlephobia/min/@afaanbilal/pulse@0.0.3?style=for-the-badge)
+![Minified + GZipped](https://img.shields.io/bundlephobia/minzip/@afaanbilal/pulse@0.0.3?label=MIN%20%2B%20GZIPPED&style=for-the-badge)
+
 Author: **[Afaan Bilal](https://afaan.dev)**
 
 ## Introduction
