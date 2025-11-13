@@ -1,6 +1,8 @@
 Pulse
 =====
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/AfaanBilal/pulsejs)
+
 ![NPM](https://img.shields.io/npm/v/@afaanbilal/pulse?style=for-the-badge)
 ![Minified Size](https://img.shields.io/bundlephobia/min/@afaanbilal/pulse@0.0.3?style=for-the-badge)
 ![Minified + GZipped](https://img.shields.io/bundlephobia/minzip/@afaanbilal/pulse@0.0.3?label=MIN%20%2B%20GZIPPED&style=for-the-badge)
